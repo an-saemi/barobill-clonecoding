@@ -1,0 +1,20 @@
+<svg id="스탭_1" data-name="스탭 1" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .outer-1 {
+      opacity: 0.1;
+      }
+
+      .outer-2, .outer-1, .inner {
+      fill: #466ff4;
+      }
+
+      .outer-2 {
+      opacity: 0.04;
+      }
+    </style>
+  </defs>
+  <rect id="outer-2" class="outer-2" x="0" y="0" width="200" height="200" rx="30" ry="30"/>
+  <rect id="outer-1" class="outer-1" x="30.5" y="30.5" width="139" height="139" rx="30" ry="30"/>
+  <rect id="inner" class="inner" x="43" y="43" width="114" height="114" rx="30" ry="30"/>
+</svg>

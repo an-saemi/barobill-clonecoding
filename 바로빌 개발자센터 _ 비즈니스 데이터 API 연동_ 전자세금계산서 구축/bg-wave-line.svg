@@ -1,0 +1,83 @@
+<svg id="스탭_1" data-name="스탭 1" xmlns="http://www.w3.org/2000/svg" width="1920" height="287" viewBox="0 0 1920 287">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+      fill: none;
+      fill-rule: evenodd;
+      }
+
+      .cls-1 {
+      stroke: #a2a2a2;
+      stroke-linecap: round;
+      stroke-dasharray: 0.001 4;
+      opacity: 0.6;
+      }
+
+      .cls-1, .cls-2 {
+      stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3 {
+      stroke: #4570fb;
+      }
+
+      .cls-3, .cls-4 {
+      stroke-width: 1px;
+      }
+
+      .cls-3, .cls-5 {
+      opacity: 0.1;
+      }
+
+      .cls-4 {
+      stroke: #3fe4b4;
+      opacity: 0.25;
+      }
+
+      .cls-5, .cls-6 {
+      fill: #2e61cb;
+      }
+    </style>
+    <filter id="filter" x="428" y="0" width="287" height="287" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="6.557"/>
+      <feFlood result="flood" flood-opacity="0.13"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="459" y="31" width="225" height="225" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="6.557"/>
+      <feFlood result="flood" flood-opacity="0.13"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-3" x="472" y="44" width="199" height="199" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="6.557"/>
+      <feFlood result="flood" flood-opacity="0.13"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-4" x="861" y="44" width="199" height="199" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="6.557"/>
+      <feFlood result="flood" flood-opacity="0.13"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-5" x="1252" y="44" width="199" height="199" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="6.557"/>
+      <feFlood result="flood" flood-opacity="0.13"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="모양_522" class="cls-1" d="M-2,1718s295.4-215.06,572-76,388-4,388-4,180.66-212.79,395,5c246.06,250.03,570,0,570,0" transform="translate(0 -1498)"/>
+  <path id="모양_522_복사_3" class="cls-2" d="M-6,1725c-6.473-6.72,298.43-220.95,576-84,113.605,56.05,153,54,153,54" transform="translate(0 -1498)"/>
+  <path id="모양_522_복사" class="cls-3" d="M-186,1730s325.4-226.06,602-87,389,10,389,10c55.593-40.87,176.662-187.42,551-9,361.67,172.38,584-40.78,578-51" transform="translate(0 -1498)"/>
+  <path id="모양_522_복사_2" class="cls-4" d="M-186,1690s339.916,77.8,602-87c214.6-134.94,325.791,233.59,700,65,209.51-94.39,771.89-153.31,829-78" transform="translate(0 -1498)"/>
+  <circle id="포인트" class="cls-6" cx="723.5" cy="199.5" r="5"/>
+  <circle id="포인트_배경" class="cls-5" cx="723" cy="199" r="18.5"/>
+</svg>
