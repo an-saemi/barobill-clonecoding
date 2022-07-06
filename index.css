@@ -418,6 +418,7 @@
     opacity: 0;
   }
   main .section3 > .tab {
+    width: 100%;
     margin: 30px auto;
     display: -webkit-box;
     display: -ms-flexbox;
