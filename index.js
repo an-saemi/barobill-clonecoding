@@ -17,9 +17,9 @@ const fourInfo = document.querySelector('.section4 > .info');
 
 
 
-document.addEventListener('load',function(){
-    document.querySelector('.section1 > p').createAttribute('class','scroll');
-    document.querySelector('.section1 > h2').createAttribute('class','scroll');
+document.addEventListener('load', function () {
+    document.querySelector('.section1 > p').createAttribute('class', 'scroll');
+    document.querySelector('.section1 > h2').createAttribute('class', 'scroll');
 });
 //왜 로딩시 class가 안먹는가에 대하여 classList써보기
 
@@ -75,7 +75,7 @@ document.addEventListener('scroll', function () {
 
 
     if (scrollTop >= 200) {
-        sectionThree1.setAttribute("class","scroll");
+        sectionThree1.setAttribute("class", "scroll");
         sectionThree2.style.animationDelay = "0.2s";
         sectionThree2.classList.add('scroll');
         sectionThree3.style.animationDelay = "0.4s";
@@ -123,14 +123,14 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 //section4 tab
-function dataLoad(url){
+function dataLoad(url) {
     fetch(url)
-    .then(function (data) {
-        return data.text();
-    })
-    .then(function (aaa) {
-        fourInfo.innerHTML = aaa;
-    })
+        .then(function (data) {
+            return data.text();
+        })
+        .then(function (aaa) {
+            fourInfo.innerHTML = aaa;
+        })
 }
 
 let index = [];
@@ -141,65 +141,67 @@ sectionFoura.forEach(function (v, k) {
 
     v.addEventListener('click', function (event) {
         event.preventDefault();
-        
-        sectionFoura.forEach(function(v,k){
+
+        sectionFoura.forEach(function (v, k) {
             v.classList.remove('check');
         });
 
         this.classList.add('check');
         index.push(v);
-        
-        if(v.textContent == "수익형"){
+
+        if (v.textContent == "수익형") {
             //textContent와 text()구분하기
             dataLoad('./load1.html')
-        }else{
+        } else {
             dataLoad('./load2.html')
             //dataLoad함수생성
         }
-        
+
     })
 })
 
 //section5 json읽어오기
-const sec5Ul = document.querySelector('.section5 > ul');
+const sec5Ul = document.querySelector('.fiveSwiper > ul');
 
 fetch('./partners.json')
-.then(function(data){
-    return data.text();
-})
-.then(function(par){
-    console.log(par);
+    .then(function (data) {
+        return data.text();
+    })
+    .then(function (par) {
+        console.log(par);
 
-    const json = JSON.parse(par);
-    console.log(json);
-    
-    let sec5Li = '';
-    json.company.forEach(function(v,k){
-        sec5Li += `<li class="swiper-slide">
-        <div class="partners">
-            <img src="${v.url}" alt="">
-            <div class="name">
-                <p class="subject">${v.subject}</p>
-                <b class="company">${v.name}</b>
+        const json = JSON.parse(par);
+        console.log(json);
+
+        let sec5Li = '';
+
+        json.company.forEach(function (v, k) {
+
+            sec5Li += `<li class="swiper-slide">
+            <div class="partners">
+                <img src="${v.url}" alt="">
+                <div class="name">
+                    <p class="subject">${v.subject}</p>
+                    <b class="company">${v.name}</b>
+                </div>
             </div>
-        </div>
-        <img src="./바로빌 개발자센터 _ 비즈니스 데이터 API 연동_ 전자세금계산서 구축/quotes.png" alt="">
-        <p>${v.review}
-        </p>
-    </li>`
-    });
-    sec5Ul.innerHTML = sec5Li;
+            <img src="./바로빌 개발자센터 _ 비즈니스 데이터 API 연동_ 전자세금계산서 구축/quotes.png" alt="">
+            <p>${v.review}</p>
+            </li>`
+        });
 
-    var swiper = new Swiper(".fiveSwiper", {
-        slidesPerView: "auto",
-        centeredSlides: true,
-        spaceBetween: 30,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-    });
-});
+        sec5Ul.innerHTML = sec5Li;
+
+        var swiper = new Swiper(".fiveSwiper", {
+            slidesPerView: "auto",
+            centeredSlides: true,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    })
 
 //par=json배열임
 
