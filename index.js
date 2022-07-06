@@ -187,8 +187,17 @@ fetch('./partners.json')
         <p>${v.review}
         </p>
     </li>`
+    });
     sec5Ul.innerHTML = sec5Li;
 
+    var swiper = new Swiper(".fiveSwiper", {
+        slidesPerView: "auto",
+        centeredSlides: true,
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
     });
 });
 

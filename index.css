@@ -73,7 +73,7 @@
     top: 0;
     left: 0;
     z-index: 10;
-    height: 80px;
+    height: 75px;
   }
   .burger_popup {
     position: fixed;
@@ -418,14 +418,13 @@
     opacity: 0;
   }
   main .section3 > .tab {
-    width: 50%;
     margin: 30px auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   main .section3 > .tab > a:nth-of-type(1) {
     font-size: 0.8em;
@@ -617,22 +616,22 @@
     line-height: 1.2;
     margin-bottom: 50px;
   }
-  main .section5.swiper.mySwiper {
+  main .section5.swiper.fiveSwiper {
     width: 100%;
     height: 1000px;
     background-color: #E6E9F0;
     text-align: center;
     position: relative;
   }
-  main .section5.swiper.mySwiper > .tit {
+  main .section5.swiper.fiveSwiper > .tit {
     padding-top: 80px;
   }
-  main .section5.swiper.mySwiper > .tit > p:nth-of-type(1) {
+  main .section5.swiper.fiveSwiper > .tit > p:nth-of-type(1) {
     font-size: 0.8em;
     font-weight: lighter;
     opacity: 0;
   }
-  main .section5.swiper.mySwiper > .tit > h2 {
+  main .section5.swiper.fiveSwiper > .tit > h2 {
     margin-top: 20px;
     white-space: pre-line;
     font-size: 1.2em;
@@ -641,7 +640,7 @@
     font-weight: bold;
     opacity: 0;
   }
-  main .section5.swiper.mySwiper > .tit > p:nth-of-type(2) {
+  main .section5.swiper.fiveSwiper > .tit > p:nth-of-type(2) {
     margin-top: 20px;
     font-size: 0.8em;
     color: #3e4654;
@@ -649,7 +648,7 @@
     line-height: 1.5;
     opacity: 0;
   }
-  main .section5.swiper.mySwiper > ul.swiper-wrapper {
+  main .section5.swiper.fiveSwiper > ul.swiper-wrapper {
     margin-top: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -659,7 +658,7 @@
             justify-content: space-between;
     height: 400px;
   }
-  main .section5.swiper.mySwiper > ul.swiper-wrapper > li.swiper-slide {
+  main .section5.swiper.fiveSwiper > ul.swiper-wrapper > li.swiper-slide {
     -ms-flex-negative: 0;
         flex-shrink: 0;
     width: 90%;
@@ -670,7 +669,7 @@
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     position: relative;
   }
-  main .section5.swiper.mySwiper > ul.swiper-wrapper > li.swiper-slide > .partners {
+  main .section5.swiper.fiveSwiper > ul.swiper-wrapper > li.swiper-slide > .partners {
     width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -684,14 +683,14 @@
     vertical-align: middle;
     margin: 15px auto;
   }
-  main .section5.swiper.mySwiper > ul.swiper-wrapper > li.swiper-slide > .partners > img {
+  main .section5.swiper.fiveSwiper > ul.swiper-wrapper > li.swiper-slide > .partners > img {
     display: inline;
     width: 23%;
     margin: 0;
     margin-top: 10px;
     margin-left: 15px;
   }
-  main .section5.swiper.mySwiper > ul.swiper-wrapper > li.swiper-slide > .partners > .name {
+  main .section5.swiper.fiveSwiper > ul.swiper-wrapper > li.swiper-slide > .partners > .name {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -703,26 +702,26 @@
     margin-left: 20px;
     text-align: left;
   }
-  main .section5.swiper.mySwiper > ul.swiper-wrapper > li.swiper-slide > .partners > .name .subject {
+  main .section5.swiper.fiveSwiper > ul.swiper-wrapper > li.swiper-slide > .partners > .name .subject {
     margin: 0;
     color: #939393;
     display: inline-block;
     font-size: 0.7em;
     margin-bottom: 7px;
   }
-  main .section5.swiper.mySwiper > ul.swiper-wrapper > li.swiper-slide > .partners > .name .company {
+  main .section5.swiper.fiveSwiper > ul.swiper-wrapper > li.swiper-slide > .partners > .name .company {
     color: black;
     font-size: 1.2em;
     font-weight: bold;
     letter-spacing: -20%;
   }
-  main .section5.swiper.mySwiper > ul.swiper-wrapper > li.swiper-slide > img {
+  main .section5.swiper.fiveSwiper > ul.swiper-wrapper > li.swiper-slide > img {
     width: 12%;
     position: absolute;
     left: 6%;
     top: 42%;
   }
-  main .section5.swiper.mySwiper > ul.swiper-wrapper > li.swiper-slide p:nth-of-type(1) {
+  main .section5.swiper.fiveSwiper > ul.swiper-wrapper > li.swiper-slide p:nth-of-type(1) {
     width: 80%;
     margin: 0 auto;
     font-size: 0.75em;
@@ -731,26 +730,26 @@
     line-height: 1.5;
     letter-spacing: -0.04em;
   }
-  main .section5.swiper.mySwiper > .swiper-button-next {
+  main .section5.swiper.fiveSwiper > .swiper-button-next {
     position: absolute;
     top: 40%;
     left: 94%;
     color: #a8a8a8;
     margin: 0;
   }
-  main .section5.swiper.mySwiper > .swiper-button-prev {
+  main .section5.swiper.fiveSwiper > .swiper-button-prev {
     position: absolute;
     top: 40%;
     left: 0;
     color: #a8a8a8;
     margin: 0;
   }
-  main .section5.swiper.mySwiper > .section5-1 {
+  main .section5.swiper.fiveSwiper > .section5-1 {
     width: 90%;
     margin: 0px auto 0px;
     text-align: center;
   }
-  main .section5.swiper.mySwiper > .section5-1 > ul {
+  main .section5.swiper.fiveSwiper > .section5-1 > ul {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -761,10 +760,10 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  main .section5.swiper.mySwiper > .section5-1 > ul > li {
+  main .section5.swiper.fiveSwiper > .section5-1 > ul > li {
     width: 31%;
   }
-  main .section5.swiper.mySwiper > .section5-1 > ul > li > img {
+  main .section5.swiper.fiveSwiper > .section5-1 > ul > li > img {
     width: 100%;
   }
   main .section6 {
